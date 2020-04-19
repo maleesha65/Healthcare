@@ -33,6 +33,21 @@
 		 font-weight: bold;
 		 border-radius: 8px;
 		}
+		
+		
+		.btn5 {
+			background-color: #00008B; 
+			border: none;
+			color: white;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+			}
 
 		.button1 {
 		 background-color: white; 
@@ -55,6 +70,23 @@
 		 background-color: #f44336;
 		 color: white;
 		}
+		
+		.btn5:hover {
+  		background-color: white; 
+  		color: black; 
+ 		border: 2px solid #00008B;
+ 		}
+ 		
+ 		.btn5 {
+		background-color: #00008B;
+		color: white;
+		}
+}
+
+.button1 {
+  background-color: #4CAF50;
+  color: white;
+}
 	
 	</style>
 	
@@ -65,8 +97,13 @@
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-primary">Registered Users</h6>
             </div>
+            
             <div class="card-body">
+            
               <div class="table-responsive">
+              <div>
+            	<a type="submit" class="button btn5" href="registration.jsp">Add User Manually As Admin</a>
+            </div>
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                    <thead>
                     <tr>
