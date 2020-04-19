@@ -78,6 +78,7 @@
                 </div>
                 <hr>
                 <input type="submit" class="btn btn-primary btn-user btn-block" value="Register">
+                
                   
                 <hr>
               </form>

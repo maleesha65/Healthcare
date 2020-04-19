@@ -66,11 +66,11 @@ conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/portal", "root",
                   <input type="text" class="form-control form-control-user" name="name" value="<%=res.getString(2) %>">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user" name="address" value="<%=res.getString(3) %>">
+                  <input type="text" class="form-control form-control-user" name="address" value="<%=res.getString(4) %>">
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" name="idno" value="<%=res.getString(4) %>">
+                    <input type="text" class="form-control form-control-user" name="idno" value="<%=res.getString(3) %>">
                   </div>
                   <div class="col-sm-6">
                     <input type="date" class="form-control form-control-user" name="dob" value="<%=res.getString(5) %>">
